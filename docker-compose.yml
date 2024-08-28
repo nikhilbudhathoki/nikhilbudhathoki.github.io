@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  streamlit-app:
+    build:
+      context: ./streamlit
+    ports:
+      - "8501:8501"
